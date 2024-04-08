@@ -38,6 +38,7 @@ minikube start --help
 minikube stop
 kubectl version
 minikube start --memory 4096m
+minikube service fleetman-webapp --url
 kubectl version
 kubectl get po -A
 kubectl get deployments
